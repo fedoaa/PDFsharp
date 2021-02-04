@@ -54,4 +54,18 @@
     <EmbeddedResource Include="..\PdfSharp\Resources\Messages.restext" Link="Resources\Messages.restext" />
     <None Include="StrongnameKey.snk" />
   </ItemGroup>
+
+  <PropertyGroup>
+    <PackageId>PdfSharp-Wpf.Core</PackageId>
+    <PackageVersion>1.51.5185</PackageVersion>
+    <Authors>empira Software GmbH,fedoaa</Authors>
+    <Description>
+      PDFsharp is the Open Source .NET library that easily creates and processes PDF documents on the fly from any .NET language. The same drawing routines can be used to create PDF documents, draw on the screen, or send output to any printer.
+
+      This is the PDFsharp WPF package. See Project Information for details.
+    </Description>
+    <PackageTags>PDFsharp, PDF, creation</PackageTags>
+    <RepositoryUrl>https://github.com/fedoaa/PDFsharp</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
 </Project>
