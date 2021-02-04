@@ -24,8 +24,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="Resources\Messages.de.restext" />
-    <EmbeddedResource Include="Resources\Messages.restext" />
+    <EmbeddedResource Include="Resources\Messages.de.restext" LogicalName="PdfSharp.Resources.Messages.de.resources" />
+    <EmbeddedResource Include="Resources\Messages.restext" LogicalName="PdfSharp.Resources.Messages.resources" />
     <None Include="StrongnameKey.snk" />
   </ItemGroup>
 
